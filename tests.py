@@ -1,9 +1,5 @@
-from unittest.mock import Mock
-
 import pytest
-
 import data
-from main import BooksCollector
 
 class TestBooksCollector:
 
