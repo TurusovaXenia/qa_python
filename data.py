@@ -3,7 +3,6 @@ book_2 = 'Тени у забытой реки среди снов или огн�
 book_3 = 'Вокруг света за 80 дней'
 book_4 = 'Крокодил Гена и его друзья'
 book_5 = 'Ревизор'
-book_6 = 'Приключения таинственного островного странника'
 
 genre_1 = 'Ужасы'
 genre_2 = 'Детективы'
@@ -29,7 +28,6 @@ expected_children_books_many = [book_3, book_4, book_5]
 expected_children_books_one = [book_3]
 
 #for test_add_book_in_favorite_book_success
-books_genre_add_favorites_book_already_in_favorites = {book_1 : genre_1, book_2: genre_2, book_3: genre_3, book_4: genre_4}
 books_genre_add_favorites_book_empty = {book_2 : genre_2, book_4: genre_4}
 
 expected_favorites = [book_1]
