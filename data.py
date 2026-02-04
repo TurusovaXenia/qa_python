@@ -37,3 +37,6 @@ favorites_book_exist = [book_1, book_2, book_3]
 favorites_book_not_exist = [book_3, book_4]
 
 expected_favorites_book_deleted = [book_1, book_3]
+
+#for test_get_list_of_favorites_books
+favorites_books_list = [book_1, book_5]

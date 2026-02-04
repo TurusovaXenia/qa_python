@@ -80,5 +80,5 @@ class TestBooksCollector:
         assert collector.favorites == expected_favorites
 
     def test_get_list_of_favorites_books_two_books_returns_list(self, collector):
-        collector.favorites = [data.book_1, data.book_5]
-        assert collector.get_list_of_favorites_books() == [data.book_1, data.book_5]
+        collector.favorites = data.favorites_books_list
+        assert collector.get_list_of_favorites_books() == data.favorites_books_list
