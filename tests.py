@@ -38,7 +38,7 @@ class TestBooksCollector:
 
     def test_get_books_genre_all_books_returns_all_books_genre(self, collector):
         collector.books_genre = data.books_genre_all
-        assert collector.get_books_genre() == collector.books_genre
+        assert collector.get_books_genre() == data.books_genre_all
 
     @pytest.mark.parametrize(
         'books_genre, expected_children_books',
